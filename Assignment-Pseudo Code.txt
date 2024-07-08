@@ -1,0 +1,113 @@
+						Question 1:
+
+PROGRAM Sum:
+	Read number A;
+	Read number B;
+	Print Sum= A+B;
+END
+
+						Question 2:
+
+PROGRAM EvenNumbers:
+	Read number A=0;
+	Sum=0;
+	WHILE A<100
+	DO B=A+Sum;
+		A=A+2;
+	ENDWHILE;	
+ Print Sum;
+END
+
+    						Question 3:
+
+PROGRAM LeapYear:
+	Read Year Value A;
+	If (A/4 gives no remainder)
+		ANDIF(A/100 gives remainder);
+		THEN (A is leap year);
+		ELSE (A is not leap year);
+	 ENDIF;
+	ELSEIF(A/100 gives no remainder)
+		ANDIF (A/400 gives no remainder)
+		THEN (A is leap year);
+		ELSE (A is not leap year);
+	ENDELSEIF;
+END
+
+						Question 4:
+
+PROGRAM KM/H to Miles/H:
+	Read speed in km/h A;
+	Convert to m/h B = (A*0.621371);
+	Print B;
+END
+
+						Question 5:
+
+PROGRAM BuzzNumber:
+	Read number A;
+	If (A/7 gives no remainder)
+		ORIF(First Place of number=7)
+		THEN (A is leap year);
+		ELSE (A is not leap year);
+	ENDIF;
+END
+
+						Question 6:
+
+PROGRAM MultipilicationTable:
+	Read number A;
+	B=1;
+	Table=0;
+	WHILE B<11;
+	DO Table=(A*B)+Table;
+		B=B+1;
+	ENDWHILE;	
+ Print Table;
+END
+
+						Question 7:
+
+PROGRAM Factorial:
+	Read number A;
+	If (A=0 OR A=1)
+		THEN (Factorial is 1);
+	ELSEIF (A>1);
+		THEN (Factorial= Multipilication of all whole positive values<=A);
+	ENDIF;
+END
+
+						Question 8:
+
+PROGRAM PrimeNumber:
+	Read Value A;
+	Read Value B=A/2;
+	PrimeNO=True;
+	If (A/B gives no remainder)
+		THEN (PrimeNO=False);
+	 ENDIF
+	 B=B-1;
+	ENDWHILE;	
+	IF(PrimeNO=true)
+		THEN (A is Prime number);
+		ELSE (A is not Prime number);
+	ENDIF;
+END
+
+
+						Question 9:
+
+PROGRAM Triangle:
+	Read First side value A;
+	Read Second side value B;
+	Read Third side value C;
+	If (A=B AND B=C)
+		THEN Print (Equilateral Triangle);
+	       ELSEIF(A=B AND B!=C);
+	       ORIF(A=C AND C!=B);
+	       THEN Print (Isosceles Triangle);
+	     ELSE Print (Scalene Triangle);
+	   ENDELSEIF;	
+	ENDIF;
+END
+
