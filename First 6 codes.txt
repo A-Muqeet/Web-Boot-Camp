@@ -1,0 +1,75 @@
+using System;
+using System.Numerics;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace MyApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //Question 1
+            //    Console.Write("Enter FirstNumber:");
+            //    int FirstNumber = int.Parse(Console.ReadLine());
+            //    Console.Write("Enter SecondNumber:");
+            //    int SecondNumber = int.Parse(Console.ReadLine());
+            //    int Sum =  FirstNumber +  SecondNumber;
+            //    Console.WriteLine("Sum is" +  Sum);
+            //}
+
+            //Question 2
+            //int num = 0;
+            //int sum = 0;
+            //while (num < 101)
+            //{
+            //    int Total = sum + num;
+            //    num=num+2;
+            //    Console.WriteLine(Total);
+            //}
+
+            ////Question 3
+            //Console.Write("Enter Year:");
+            //int Year = int.Parse(Console.ReadLine());
+            //int A = Year;
+            //if ((A % 4 == 0 && A % 100 != 0))
+            //{
+            //    Console.WriteLine("Leap Year");
+            //}
+            //else if ((A % 100 == 0 && A % 400 == 0))
+            //{
+            //    Console.WriteLine("Leap Year");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Not Leap Year");
+            //}
+
+            //Question 4
+            //Console.Write("Enter Speed:");
+            //int Speed = int.Parse(Console.ReadLine());
+            //float M_f = 0.621371f;
+            //float S_m = Speed * M_f;
+            //Console.WriteLine("Speed in m/h is" +  S_m);
+
+            ////Question 5
+            //Console.Write("Enter number:");
+            //int number = int.Parse(Console.ReadLine());
+            //if ((number % 7 == 0 || number % 10 == 7))
+            //{
+            //    Console.WriteLine("Buzz Number");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Not Buzz Number");
+            //}
+
+
+            ////Question 6
+            Console.Write("Enter number:");
+            int number = int.Parse(Console.ReadLine());
+            int B;
+            for(B=1; B<11; B++) {
+
+        }
+    }
+}
